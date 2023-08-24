@@ -1,0 +1,12 @@
+.main-heading h1 {
+  content: " ";
+  position: absolute;
+  font-size: 65px;
+  color: #fff;
+  font-weight: 700;
+  font-family: Playfair Display;
+  top: 250px;
+  padding-left: 85px;
+  width: 600px;
+  z-index: 30;
+}
