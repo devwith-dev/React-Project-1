@@ -9,39 +9,67 @@ export default function Section_3() {
   return (
     <div className="section3">
       <div className="section-top">
-      <div className="text">
-        <span>WHAT WE SERVE</span>
-        <h2>We Provide Top Destinations</h2>
-        <p>
-          Far far away, behind the word mountains, far from the countries
-          Vokalia and Consonantia, there live the blind texts. Separated they
-          live in Bookmarksgrove right at the coast of the Semantics, a large
-          language ocean.
-        </p>
+        <div className="text">
+          <span>WHAT WE SERVE</span>
+          <h2>We Provide Top Destinations</h2>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts. Separated they
+            live in Bookmarksgrove right at the coast of the Semantics, a large
+            language ocean.
+          </p>
         </div>
-        <div/>
+        <div />
         <div className="buttons">
-          <button onClick={()=>{ref.current.prev()}}>
+          <button
+            onClick={() => {
+              ref.current.prev();
+            }}
+          >
             <FaAngleLeft />
           </button>
-          <button onClick={()=>{ref.current.next()}}>
+          <button
+            onClick={() => {
+              ref.current.next();
+            }}
+          >
             <FaAngleRight />
           </button>
         </div>
       </div>
       <div className="carousel">
-        <Carousel autoplay slidesToShow={3} ref={ref}>
-          <div className="img_div">
-            <img style={{ height: "450px", width: "400px" }} src={image} />
+        <Carousel autoplay slidesToShow={3} ref={ref} dots={false}>
+          <div className="carousel_div">
+            <img style={{ height: "500px", width: "415px" }} src={image} />
+            <p href="3">Enjoy the beauty of Maldives</p>
+            <span>Maldives, Republic Maldives</span>
+            <div className="price">
+              <span>$499</span>
+            </div>
           </div>
-          <div className="img_div">
-            <img style={{ height: "450px", width: "400px" }} src={image} />
+          <div className="carousel_div">
+            <img style={{ height: "500px", width: "415px" }} src={image} />
+            <p href="3">Enjoy the beauty of Maldives</p>
+            <span>Maldives, Republic Maldives</span>
+            <div className="price">
+              <span>$499</span>
+            </div>
           </div>
-          <div className="img_div">
-            <img style={{ height: "450px", width: "400px" }} src={image} />
+          <div className="carousel_div">
+            <img style={{ height: "500px", width: "415px" }} src={image} />
+            <p href="3">Enjoy the beauty of Maldives</p>
+            <span>Maldives, Republic Maldives</span>
+            <div className="price">
+              <span>$499</span>
+            </div>
           </div>
-          <div className="img_div">
-            <img style={{ height: "450px", width: "400px" }} src={image} />
+          <div className="carousel_div">
+            <img style={{ height: "500px", width: "415px" }} src={image} />
+            <p href="3">Enjoy the beauty of Maldives</p>
+            <span>Maldives, Republic Maldives</span>
+            <div className="price">
+              <span>$499</span>
+            </div>
           </div>
         </Carousel>
       </div>

@@ -1,40 +1,102 @@
-.section3{
-    width: 100%;
-    height: 100vh;
-    padding: 112px 85px;
-}
-
-.section-top{
-    display: flex;
-}
-
-.carousel{
-    padding: 0px 12px;
+.section3 {
+  width: 100%;
+  height: fit-content;
+  padding: 112px 85px;
 }
 
 .section-top {
-    width: 500px;
-    padding: 0px 12px;
-  }
+  display: flex;
+  padding: 0px 12px;
+  margin-bottom: 48px;
+  justify-content: space-between;
+}
 
-.section3 span {
-    color: #fc8621;
-    font-size: 18px;
-    font-family: sans-serif;
-    font-weight: 700;
-  }
-  
-  .section3 h2 {
-    font-size: 46px;
-    color: #000;
-    font-weight: 700;
-    font-family: Playfair Display;
-    margin-bottom: 1rem;
-  }
-  
-  .section3 p {
-    margin-bottom: 1rem;
-    font-family: sans-serif;
-    font-size: 14px;
-  }
+.carousel {
+  padding-left: 12px;
+  padding-right: 12px;
+}
 
+.carousel_div{
+  height: 600px;
+}
+
+.carousel_div p {
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: Playfair Display;
+  margin-top: 24px;
+}
+
+.carousel_div span {
+  color: #999;
+  font-weight: 400;
+}
+
+.text {
+  width: 500px;
+}
+
+.text span {
+  color: #fc8621;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.text h2 {
+  font-size: 46px;
+  color: #000;
+  font-weight: 700;
+  font-family: Playfair Display;
+  margin-bottom: 1rem;
+}
+
+.text p {
+  margin-bottom: 1rem;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #212529;
+  font-weight: 400;
+}
+
+.buttons {
+  padding-right: 40px;
+  padding-top: 100px;
+  display: flex;
+} 
+
+.buttons button{
+  width: 100%;
+  border: none;
+  background: none;
+  font-size: 70px;
+  color: #999;
+  transition: all 300ms ease;
+}
+
+.buttons button:hover{
+  font-size: 80px;
+  color: #fc8621;
+}
+
+.price{
+  width: 100px;
+  height: 90px;
+  background-color: white;
+  z-index: 30;
+  position: relative;
+  left: 315px;
+  top: -183px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+.price span{
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  color: #fc8621;
+}
