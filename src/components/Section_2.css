@@ -37,7 +37,7 @@
 }
 
 .image-1 {
-  background-image: url(./about_1.jpg);
+  background-image: url(../images/about_1.jpg);
   background-size: cover;
   background-repeat:no-repeat;
   width: 100%;
@@ -48,7 +48,7 @@
 }
 .image-2 {
   margin-top: 46px;
-  background-image: url(./about_2.jpg);
+  background-image: url(../images/about_2.jpg);
   background-size: cover;
   background-repeat:no-repeat;
   width: 100%;

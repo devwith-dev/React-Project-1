@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { Carousel } from "antd";
-import image from "./about_1.jpg";
+import image from "../images/about_1.jpg";
 import "./Section_3.css";
 import { FaAngleRight, FaAngleLeft } from "react-icons/fa6";
 
