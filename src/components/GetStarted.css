@@ -1,0 +1,32 @@
+.banner{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 85px;
+    background-color: #fc8621;
+}
+
+.banner h3{
+    font-family: Playfair Display;
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.banner button {
+    background: transparent;
+    padding: 15px 30px;
+    border: white 1px solid;
+    color: #fff;
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  
+  .banner button:hover {
+    color: #fc8621;
+    background: white;
+    transition: 0.3s all ease;
+  }
