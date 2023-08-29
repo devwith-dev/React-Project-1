@@ -56,6 +56,8 @@
   font-size: 14px;
   font-family: sans-serif;
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
 }
 
 .blog-text{

@@ -5,6 +5,7 @@ import Section_3 from "../components/Section_3";
 import { Section_4 } from "../components/Section_4";
 import { Section_5 } from "../components/Section_5";
 import GetStarted from "../components/GetStarted";
+import { Footer } from "../components/Footer";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Section_4/>
       <Section_5/>
       <GetStarted/>
+      <Footer/>
     </>
   );
 };

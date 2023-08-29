@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import "./Section_5.css";
 import { Link } from "react-router-dom";
+import { FaAngleRight} from "react-icons/fa6";
 
-import vlog1 from "../images/about_1.jpg";
-import vlog2 from "../images/about_1.jpg";
-import vlog3 from "../images/about_1.jpg";
-import vlog4 from "../images/about_1.jpg";
+import vlog1 from "../images/Blogs/gal_1.jpg.jpg";
+import vlog2 from "../images/Blogs/gal_2.jpg.jpg";
+import vlog3 from "../images/Blogs/gal_3.jpg.jpg";
+import vlog4 from "../images/Blogs/gal_4.jpg.jpg";
 
 export const Section_5 = () => {
   const [details, setDetails] = useState([
@@ -56,13 +57,13 @@ export const Section_5 = () => {
           <div className="blog-card" key={index}>
             <img key={each.id} src={each.img} />
             <div className="blog-text">
-              <p style={{fontSize:"12px",marginTop:"20px"}}>{each.date}</p>
+              <p style={{ fontSize: "12px", marginTop: "20px" }}>{each.date}</p>
               <Link to="/blog">
                 <h2>{each.heading}</h2>
               </Link>
-              <p style={{marginBottom:"15px"}}>{each.descript}</p>
+              <p style={{ marginBottom: "15px" }}>{each.descript}</p>
               <Link to="/blog">
-                <span>Read More</span>
+                <span>Read More<FaAngleRight/></span>
               </Link>
             </div>
           </div>

@@ -15,7 +15,7 @@ export default function GetStarted() {
       >
         Begin your adventurous journey here.
       </h3>
-      <button>Get started</button>
+      <button >Get started</button>
     </div>
     </>
   );

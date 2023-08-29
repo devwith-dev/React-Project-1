@@ -1,0 +1,79 @@
+.container{
+    display: flex;
+}
+
+.columns{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+
+.left-content{
+    width: 40%;
+    padding: 0px 20px;
+}
+
+.columns li,.columns li a{
+    color:#777;
+    text-decoration: none;
+    list-style-type: none;
+    padding : 0px 0px 10px 0px;
+    font-size: 14px;
+}
+
+
+footer{
+    background-color: #efefef;
+    padding: 128px 85px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+footer h3{
+    font-size: 18px;
+    font-family: Playfair Display;
+    margin-bottom: 30px;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+    font-size:  14px;
+}
+
+.about-pass{
+    margin-bottom: 40px;
+}
+
+.about-pass p{
+    color: #777;
+    font-size: 14px;
+
+}
+
+.icons-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.icon-bg{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #777;
+    color: white;
+}
+
+.links,.company,.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}

@@ -5,6 +5,7 @@ import About from "./Pages/About";
 import Blog from "./Pages/Blog";
 import Services from "./Pages/Services";
 import { MdLocationOn } from "react-icons/md";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
